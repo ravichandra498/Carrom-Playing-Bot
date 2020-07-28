@@ -6,6 +6,7 @@
 ,straight head on shot will fail.
 - Uniform power for all coordinates can lead to unstable movement of coin.
 - Rebound shots not taken.
+- The radius of the coin is not considered so if a coin is considerably near to the path of the shot it may even obstruct the shot and the result will not be achievable.
 ## Future Improvement
 - The current Bot takes shots so as to have head on collision between the striker and coin.The point of placing the striker is simply determined by extending the line the line joining centres of pocket and the coin to pocketed. The bot can take oblique shots in future to play cuts and glances on the carrom. The current model does not take into account the radius of the coin which will account for errors in case of oblique collision. With taking the radius of coin r and striker R into consideration an optimal angle A can be determined. A is the angle of line of impact with the horizontal. It can be calculated in terms of parameters R,r and (x,y) coordinates of the coin.
 - A further optimization of the current bot is to take rebound shots effictively on the carrom board. Let's call the region from edges of the carrom board to the spot where we place the striker as X. Then for a coin in X it is optimal to take rebound if the distance of the coin is less than half the carromboard length. This means y<=(L/2) where L is the length of the board. For Rebound we need to consider the friction coefficient and compute average tranferred power post collision.
