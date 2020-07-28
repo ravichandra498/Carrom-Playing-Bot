@@ -18,7 +18,7 @@
 - Deovil Vimal Dubey
 - Inzamam
 - Keshav Dixit
-- 
+- Ravi Chandra Burra
 ## Mentors
 - Yawan 
 - Dhruv
